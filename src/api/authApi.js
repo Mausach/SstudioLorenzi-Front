@@ -1,9 +1,9 @@
 import axios from "axios";
 //http://localhost:4003
-//https://as-sumadre.onrender.com
+//https://studiolorenzi-back.onrender.com
 
 export const authApi=axios.create({
-    baseURL: "http://localhost:4005",   
+    baseURL: "https://studiolorenzi-back.onrender.com",   
 });
 
 
