@@ -1,0 +1,174 @@
+body{
+    min-height: 100vh;
+    /*background:linear-gradient(to right,#13005A,#1C82AD) /*1 i 3 de la pal 1*/
+    
+}
+
+.darks-theme {
+    background-color: #141B2D;
+    color: #E0E0E0;
+  }
+
+.lights-theme {
+    background-color: #E9EBF2;
+    color: #141414;
+  }
+  
+  .btn-theme {
+    background-color: inherit; /* Toma el color de fondo del padre */
+    border-radius: 50%; /* Hace el botón redondo */
+    font-size: 1.5rem;
+    border: none; /* Quita el borde */
+    outline: none; /* Quita el outline */
+  }
+
+  .btn-theme:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Color de fondo al pasar el cursor */
+}
+.btn-theme:focus {
+  outline: none;
+  box-shadow: none; /* Quita la sombra al enfocar */
+}
+  .btn-theme:hover {
+    outline: none;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.1); /* Color de fondo al pasar el cursor */
+  }
+
+  .btn-theme:active {
+    outline: none;
+    box-shadow: none; /* Quita la sombra al hacer clic */
+}
+
+/* Estilos personalizados para la Card */
+.card-light {
+  background-color: #97AABF; /* Fondo claro personalizado */
+  color: #000000; /* Texto oscuro */
+}
+
+.card-dark {
+  background-color: #1F2A40; /* Fondo oscuro personalizado */
+  color: #E0E0E0; /* Texto claro */
+}
+
+.card-with-shadow {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Múltiples capas de sombra */
+}
+
+.custom-button {
+  background-color: #141B2D; /* Color de fondo */
+  color: #E0E0E0; /* Color del texto */
+  
+}
+.custom-button:hover {
+  background-color: #0E141E; /* Color de fondo al pasar el cursor */
+}
+
+.transparent-red-alert {
+  background-color: rgba(139, 0, 0, 0.8) !important; /* Fondo rojo oscuro semi-transparente */
+  color: white !important; /* Color del texto */
+  border: none !important; /* Sin borde */
+}
+
+.transparent-green-alert {
+  background-color: rgba(128, 0, 0, 0.8) !important; /* Fondo rojo oscuro semi-transparente */
+  color: white !important; /* Color del texto */
+  border: none !important; /* Sin borde */
+}
+
+.transparent-green-alert {
+  background-color: rgba(0, 128, 0, 0.8) !important; /* Fondo verde oscuro semi-transparente */
+  color: white !important; /* Color del texto */
+  border: none !important; /* Sin borde */
+}
+
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto; /* Para permitir el desplazamiento si el contenido es más largo que la pantalla */
+}
+
+
+/*colores para el navbar*/
+
+.navbar-header-dark {
+  background-color: #004080; /* Color de fondo del encabezado oscuro */
+  color: #ffffff; /* Color del texto del encabezado oscuro */
+}
+
+.navbar-header-light {
+  background-color: #424f60; /* Color de fondo del encabezado claro */
+  color: #ffffff; /* Color del texto del encabezado claro */
+}
+
+.sidebar-body-dark {
+  background-color: #1F2A40; /* Color de fondo del encabezado oscuro */
+  color: #ffffff; /* Color del texto del encabezado oscuro */
+}
+
+.sidebar-body-light {
+  background-color: #97AABF; /* Color de fondo del encabezado claro */
+  color: #000000; /* Color del texto del encabezado claro */
+}
+
+.navbar-footer-dark {
+  background-color: #004080; /* Color de fondo del pie de página oscuro */
+  color: #ffffff; /* Color del texto del pie de página oscuro */
+}
+
+.navbar-footer-light {
+  background-color: #424f60; /* Color de fondo del pie de página claro */
+  color: #141414; /* Color del texto del pie de página claro */
+}
+
+.navbar-button-dark {
+  background-color: #1F2A40; /* Color de fondo del botón oscuro */
+  color: #e0e0e0; /* Color del texto del botón oscuro */
+}
+
+.navbar-button-light {
+  background-color: #97AABF; /* Color de fondo del botón claro */
+  color: #141414; /* Color del texto del botón claro */
+}
+
+.navbar-button-dark:hover {
+  background-color: #0e141e; /* Color de fondo al pasar el cursor sobre el botón oscuro */
+}
+
+.navbar-button-light:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Color de fondo al pasar el cursor sobre el botón claro */
+}
+
+
+/* Estilos para la tabla */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  
+  border-radius: 0.25rem;
+}
+/* Estilos para las celdas */
+.custom-table td, .custom-table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-bottom: 2px solid #636161;
+}
+
+
+/* Estilos para las celdas de cabecera */
+.custom-table thead th {
+  padding: 0.75rem;
+  vertical-align: bottom;
+  border-bottom: 2px solid #636161;
+}
+
+/* Estilos para las celdas */
+.custom-table td, .custom-table th {
+  padding: 0.75rem;
+  vertical-align: top;
+}
+
+
